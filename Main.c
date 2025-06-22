@@ -1,9 +1,10 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+// Author : Vishal Verma game inspired from @CODEWITHHARRY
 
 int main(){
-    srand(time(0));
+    srand(time(0)); // this function is use to generate a random number sequence every time
 
     int randomnumber = (rand()%100)+1;
     int guessed_num;
@@ -14,7 +15,7 @@ int main(){
         scanf("%d",&guessed_num);
         if (guessed_num>randomnumber)
         {
-            printf("Think of a lower number\n");
+            printf("Think of a Lower number\n");
         }
         else if(guessed_num<randomnumber){
             printf("Think of a Higher number\n");

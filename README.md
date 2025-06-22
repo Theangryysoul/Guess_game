@@ -46,3 +46,7 @@ Whoever guesses the number in the **least number of tries wins**!
 ## 🤝 Pull Requests
 
 Pull requests are welcome! Feel free to improve the game logic, add multiplayer score tracking, or create a UI version.
+
+## 🧑 Author
+
+Vishal Verma (Inspired from @codewithharry)
